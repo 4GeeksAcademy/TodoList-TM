@@ -1,48 +1,63 @@
 body {
-    color: #fff;
+  color: #fff;
 }
 
 #app{
-    text-align: -webkit-center;
+  text-align: -webkit-center;
 }
 
 
 .tarea-contenedor {
-    width: 500px;
-    background-color: #1b1b32;
-    min-height: 70px;
-    padding: 8px 15p 8px 20px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15px;
+  width: 500px;
+  background-color: black;
+  min-height: 70px;
+  padding: 8px 15p 8px 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
 
 }
 
 
 .tarea-formulario {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
 
 
-  .tarea-input {
-    width: 350px;
-    font-size: 15px;
-    background-color: white;
-    padding: 7px 16px 7px 16px;
-    border-radius: 4px 0 0 4px;
-    border: 2px solid #00471b;
-    outline: none;
-  }
+.tarea-input {
+  width: 350px;
+  font-size: 15px;
+  background-color: white;
+  padding: 7px 16px 7px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #00471b;
+  outline: none;
+}
 
-  .list-unstyled {
-    width: 100%;
-  height: 100%;
+
+
+.list-unstyled {
+  text-align: left;
+  padding-left: 70px;
+}
+
+li > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-right: 60px;
+}
+
+.trash{
+  background-color: black;
+  cursor: pointer;
+  padding-right: 80px;
+  color: white;
+  border: none;
   
-  font-size: 20px;
-  /* display: flex;
-  align-items: center; */
-  overflow-wrap: anywhere;
-  }
+}
